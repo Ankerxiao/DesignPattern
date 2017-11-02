@@ -13,6 +13,11 @@
 		11B3D6CC1FAB2F2F00404964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B3D6CA1FAB2F2F00404964 /* Main.storyboard */; };
 		11B3D6CE1FAB2F2F00404964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B3D6CD1FAB2F2F00404964 /* Assets.xcassets */; };
 		11B3D6D11FAB2F2F00404964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B3D6CF1FAB2F2F00404964 /* LaunchScreen.storyboard */; };
+		11B3D6DA1FAB301300404964 /* AbstractMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B3D6D91FAB301300404964 /* AbstractMediator.m */; };
+		11B3D6DD1FAB302500404964 /* AbstractColleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B3D6DC1FAB302500404964 /* AbstractColleague.m */; };
+		11B3D6E01FAB31EE00404964 /* TypeOneMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B3D6DF1FAB31EE00404964 /* TypeOneMediator.m */; };
+		11B3D6E31FAB320000404964 /* Colleague.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B3D6E21FAB320000404964 /* Colleague.m */; };
+		11B3D6E61FAB349600404964 /* TypeTwoMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B3D6E51FAB349600404964 /* TypeTwoMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		11B3D6CD1FAB2F2F00404964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11B3D6D01FAB2F2F00404964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11B3D6D21FAB2F2F00404964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B3D6D81FAB301300404964 /* AbstractMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMediator.h; sourceTree = "<group>"; };
+		11B3D6D91FAB301300404964 /* AbstractMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractMediator.m; sourceTree = "<group>"; };
+		11B3D6DB1FAB302500404964 /* AbstractColleague.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractColleague.h; sourceTree = "<group>"; };
+		11B3D6DC1FAB302500404964 /* AbstractColleague.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractColleague.m; sourceTree = "<group>"; };
+		11B3D6DE1FAB31EE00404964 /* TypeOneMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeOneMediator.h; sourceTree = "<group>"; };
+		11B3D6DF1FAB31EE00404964 /* TypeOneMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeOneMediator.m; sourceTree = "<group>"; };
+		11B3D6E11FAB320000404964 /* Colleague.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colleague.h; sourceTree = "<group>"; };
+		11B3D6E21FAB320000404964 /* Colleague.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colleague.m; sourceTree = "<group>"; };
+		11B3D6E41FAB349600404964 /* TypeTwoMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeTwoMediator.h; sourceTree = "<group>"; };
+		11B3D6E51FAB349600404964 /* TypeTwoMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeTwoMediator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,16 @@
 				11B3D6C51FAB2F2F00404964 /* AppDelegate.m */,
 				11B3D6C71FAB2F2F00404964 /* ViewController.h */,
 				11B3D6C81FAB2F2F00404964 /* ViewController.m */,
+				11B3D6DE1FAB31EE00404964 /* TypeOneMediator.h */,
+				11B3D6DF1FAB31EE00404964 /* TypeOneMediator.m */,
+				11B3D6E41FAB349600404964 /* TypeTwoMediator.h */,
+				11B3D6E51FAB349600404964 /* TypeTwoMediator.m */,
+				11B3D6E11FAB320000404964 /* Colleague.h */,
+				11B3D6E21FAB320000404964 /* Colleague.m */,
+				11B3D6D81FAB301300404964 /* AbstractMediator.h */,
+				11B3D6D91FAB301300404964 /* AbstractMediator.m */,
+				11B3D6DB1FAB302500404964 /* AbstractColleague.h */,
+				11B3D6DC1FAB302500404964 /* AbstractColleague.m */,
 				11B3D6CA1FAB2F2F00404964 /* Main.storyboard */,
 				11B3D6CD1FAB2F2F00404964 /* Assets.xcassets */,
 				11B3D6CF1FAB2F2F00404964 /* LaunchScreen.storyboard */,
@@ -152,7 +177,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				11B3D6C91FAB2F2F00404964 /* ViewController.m in Sources */,
+				11B3D6E31FAB320000404964 /* Colleague.m in Sources */,
+				11B3D6E01FAB31EE00404964 /* TypeOneMediator.m in Sources */,
 				11B3D6C61FAB2F2F00404964 /* AppDelegate.m in Sources */,
+				11B3D6DD1FAB302500404964 /* AbstractColleague.m in Sources */,
+				11B3D6E61FAB349600404964 /* TypeTwoMediator.m in Sources */,
+				11B3D6DA1FAB301300404964 /* AbstractMediator.m in Sources */,
 				11B3D6C31FAB2F2E00404964 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
