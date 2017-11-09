@@ -21,6 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+}
+
+//中介者模式
+- (void)mediatorPattern{
     //中介者模式：用一个中介对象来封装一系列的对象交互，中介者使各个对象不需要显示的相互引用，从而是其耦合松散，而且可以独立的改变它们之间的交互
     self.mediator = [[TypeOneMediator alloc] init];
     Colleague *colleagueA = [Colleague new];
@@ -37,12 +41,6 @@
     
     [colleagueA changeValue:2.f];
     NSLog(@"%@",[self.mediator values]);
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
